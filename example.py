@@ -1,5 +1,6 @@
 from VirtualTrebuchet import VirtualTrebuchet
 
+# ALL Initial values must be given to the VirtualTrebuchet constructor
 initial_values = {
     "length_short_arm": 0.9,        # [m]
     "length_long_arm": 4.5,         # [m]
@@ -25,7 +26,7 @@ vt = VirtualTrebuchet(initial_values)
 # Test different values for length long arm and save data to test_length_long_arm.csv
 vt.save_data("test_length_long_arm", length_long_arm=[4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5])
 
-# Test many different varibales at once and save data to multi_variable.csv
+# Test many different variables at once and save data to multi_variable.csv
 vt.save_data("multi_variable",
              length_long_arm=[4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5],
              projectile_mass=[3, 5, 7],
