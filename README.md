@@ -1,17 +1,22 @@
 # Virtual Trebuchet Tester
-`VirtualTrebuchet.py` allows for multiple tests to be conducted on a virtual trebuche, with the results being recorded 
+`VirtualTrebuchet.py` allows for multiple tests to be conducted on a [virtual trebuchet](http://www.virtualtrebuchet.com), with the results being recorded 
 to a CSV.
 
-![alt text](./trebuchet.gif)
+![trebuchet example gif](./images/trebuchet.gif)
 
 _Example data input_
+
+![example csv](./images/results.png)
+
+_Example CSV output_
 
 ## Set Up
 1. [Install Selenium](https://www.selenium.dev/downloads/)
 2. Install dependencies manually or with `poetry shell`
+3. Add `from VirtualTrebuchet import VirtualTrebuchet` to your script
 
 ## [Example Code](./example.py)
-This gives a general idea on how the code works. 
+This gives a general idea on how the code can be used. 
 
 ## Key Features
 
